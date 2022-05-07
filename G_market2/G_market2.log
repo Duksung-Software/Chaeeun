@@ -1,0 +1,296 @@
+2022-05-06 23:57:10 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-06 23:57:10 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 18.9.0, Python 3.8.10 (default, Mar 15 2022, 12:22:08) - [GCC 9.4.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.8, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29
+2022-05-06 23:57:10 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-06 23:57:10 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-06 23:57:10 [scrapy.extensions.telnet] INFO: Telnet Password: 81a81eb3b0f379b9
+2022-05-06 23:57:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-06 23:57:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-06 23:57:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-06 23:57:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-06 23:57:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-07 17:55:10 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-07 17:55:10 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 18.9.0, Python 3.8.10 (default, Mar 15 2022, 12:22:08) - [GCC 9.4.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.8, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29
+2022-05-07 17:55:10 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-07 17:55:10 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-07 17:55:10 [scrapy.extensions.telnet] INFO: Telnet Password: 626dc79a8a960b16
+2022-05-07 17:55:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-07 17:55:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-07 17:55:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-07 17:55:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-07 17:55:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-07 17:55:55 [scrapy.core.engine] INFO: Spider opened
+2022-05-07 17:55:56 [filelock] DEBUG: Attempting to acquire lock 140099487283472 on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 17:55:56 [filelock] DEBUG: Lock 140099487283472 acquired on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 17:55:56 [filelock] DEBUG: Attempting to release lock 140099487283472 on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 17:55:56 [filelock] DEBUG: Lock 140099487283472 released on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 17:55:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.gmarket.co.kr/> (referer: None)
+2022-05-07 21:45:41 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-07 21:45:41 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 18.9.0, Python 3.8.10 (default, Mar 15 2022, 12:22:08) - [GCC 9.4.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.8, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29
+2022-05-07 21:45:41 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-07 21:45:41 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-07 21:45:41 [scrapy.extensions.telnet] INFO: Telnet Password: 189666da8f83c971
+2022-05-07 21:45:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-07 21:45:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-07 21:45:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-07 21:45:41 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-07 21:45:41 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-05-07 21:46:56 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-07 21:46:56 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 18.9.0, Python 3.8.10 (default, Mar 15 2022, 12:22:08) - [GCC 9.4.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.8, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29
+2022-05-07 21:46:56 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-07 21:46:56 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-07 21:46:56 [scrapy.extensions.telnet] INFO: Telnet Password: fa2c153eeb1af00d
+2022-05-07 21:46:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-07 21:46:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-07 21:46:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-07 21:46:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-07 21:46:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-05-07 21:48:55 [scrapy.core.engine] INFO: Spider opened
+2022-05-07 21:48:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%eb%aa%a8%ec%9e%90&s=8> (referer: None)
+2022-05-07 21:52:54 [filelock] DEBUG: Attempting to acquire lock 139718761056672 on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 21:52:54 [filelock] DEBUG: Lock 139718761056672 acquired on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 21:52:54 [filelock] DEBUG: Attempting to release lock 139718761056672 on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 21:52:54 [filelock] DEBUG: Lock 139718761056672 released on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 21:52:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://item.gmarket.co.kr/Item?goodscode=1481302055> (referer: None)
+2022-05-07 23:22:00 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-07 23:22:00 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 18.9.0, Python 3.8.10 (default, Mar 15 2022, 12:22:08) - [GCC 9.4.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.8, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29
+2022-05-07 23:22:00 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Sort', 'Name', 'Price', 'URL'],
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-07 23:22:00 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-07 23:22:00 [scrapy.extensions.telnet] INFO: Telnet Password: 462ac91c025fcec5
+2022-05-07 23:22:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-07 23:22:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-07 23:22:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-07 23:22:00 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-07 23:22:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-07 23:22:14 [scrapy.core.engine] INFO: Spider opened
+2022-05-07 23:22:15 [filelock] DEBUG: Attempting to acquire lock 140499468461632 on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 23:22:15 [filelock] DEBUG: Lock 140499468461632 acquired on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 23:22:15 [filelock] DEBUG: Attempting to release lock 140499468461632 on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 23:22:15 [filelock] DEBUG: Lock 140499468461632 released on /home/k/.cache/python-tldextract/3.8.10.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-07 23:22:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://item.gmarket.co.kr/Item?goodscode=979708239> (referer: None)
+2022-05-07 23:24:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://item.gmarket.co.kr/Item?goodscode=2325766608> (referer: None)
+2022-05-07 23:49:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%ea%b0%80%eb%b0%a9&f=d:f&s=2> (referer: None)
+2022-05-08 00:05:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%ea%b0%80%eb%b0%a9&f=d:f&s=2> (referer: None)
+2022-05-08 00:05:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%ea%b0%80%eb%b0%a9&f=d:f&s=2> (referer: None)
+2022-05-08 00:22:50 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://item.gmarket.co.kr/Item?goodscode=2325766608> (failed 1 times): An error occurred while connecting: 113: No route to host.
+2022-05-08 00:22:53 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://item.gmarket.co.kr/Item?goodscode=2325766608> (failed 2 times): An error occurred while connecting: 113: No route to host.
+2022-05-08 00:22:56 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET http://item.gmarket.co.kr/Item?goodscode=2325766608> (failed 3 times): An error occurred while connecting: 113: No route to host.
+2022-05-08 00:23:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://item.gmarket.co.kr/Item?goodscode=2325766608> (referer: None)
+2022-05-08 00:24:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%ea%b0%80%eb%b0%a9&f=d:f&s=2> (referer: None)
+2022-05-08 00:34:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%ea%b0%80%eb%b0%a9&f=d:f&s=2> (referer: None)
+2022-05-08 00:51:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%ea%b0%80%eb%b0%a9&f=d:f&s=2> (referer: None)
+2022-05-08 00:52:07 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 00:52:07 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 18.9.0, Python 3.8.10 (default, Mar 15 2022, 12:22:08) - [GCC 9.4.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.8, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29
+2022-05-08 00:52:07 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Sort', 'Name', 'Price', 'URL'],
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 00:52:07 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 00:52:07 [scrapy.extensions.telnet] INFO: Telnet Password: ab70ae2f8ef3643c
+2022-05-08 00:52:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-08 00:52:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 00:52:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 00:52:07 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 00:52:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-05-08 00:53:22 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 00:53:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://browse.gmarket.co.kr/search?keyword=%ea%b0%80%eb%b0%a9&f=d:f&s=2> (referer: None)
+2022-05-08 01:29:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://browse.gmarket.co.kr/search?keyword=%ec%84%a0%ed%92%8d%ea%b8%b0&f=d:f&s=8> (referer: None)
+2022-05-08 01:33:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://browse.gmarket.co.kr/search?keyword=%ec%84%a0%ed%92%8d%ea%b8%b0&f=d:f&s=8> (referer: None)
+2022-05-08 01:34:33 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: G_market2)
+2022-05-08 01:34:33 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 18.9.0, Python 3.8.10 (default, Mar 15 2022, 12:22:08) - [GCC 9.4.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.8, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29
+2022-05-08 01:34:33 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'G_market2',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'FEED_EXPORT_FIELDS': ['Sort', 'Name', 'Price', 'URL'],
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'G_market2.log',
+ 'NEWSPIDER_MODULE': 'G_market2.spiders',
+ 'SPIDER_MODULES': ['G_market2.spiders']}
+2022-05-08 01:34:33 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-05-08 01:34:33 [scrapy.extensions.telnet] INFO: Telnet Password: 983114497b003696
+2022-05-08 01:34:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2022-05-08 01:34:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-08 01:34:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-08 01:34:33 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-05-08 01:34:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6025
+2022-05-08 01:34:48 [scrapy.core.engine] INFO: Spider opened
+2022-05-08 01:34:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://browse.gmarket.co.kr/search?keyword=%EC%84%A0%ED%92%8D%EA%B8%B0&f=d:f&s=8> (referer: None)
+2022-05-08 01:36:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://browse.gmarket.co.kr/search?keyword=%EC%84%A0%ED%92%8D%EA%B8%B0&f=d:f&s=8> (referer: None)
+2022-05-08 01:36:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://browse.gmarket.co.kr/search?keyword=%EC%84%A0%ED%92%8D%EA%B8%B0&f=d:f&s=8> (referer: None)
